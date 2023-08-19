@@ -11,29 +11,27 @@ removeHeadgear _unit;
 removeGoggles _unit;
 
 //  "Add weapons";
-_unit addWeapon "hgun_Pistol_heavy_01_green_F";
-_unit addHandgunItem "optic_MRD_black";
+_unit addWeapon "hgun_Pistol_heavy_01_F";
 _unit addHandgunItem "11Rnd_45ACP_Mag";
-_unit addWeapon "arifle_MSBS65_Mark_black_F";
-_unit addPrimaryWeaponItem "optic_AMS";
-_unit addPrimaryWeaponItem "30Rnd_65x39_caseless_msbs_mag";
+_unit addWeapon "rhs_weap_aks74_2";
+_unit addPrimaryWeaponItem "rhs_acc_dtk1983";
+_unit addPrimaryWeaponItem "rhs_30Rnd_545x39_7N10_plum_AK";
 
 //  "Add containers";
-_unit forceAddUniform "U_B_CTRG_Soldier_urb_1_F";
-_unit addVest "V_PlateCarrierSpec_blk";
-_unit addBackpack "B_AssaultPack_blk_DiverExp";
+_unit forceAddUniform "U_B_afou_ubacs_mm14";
+_unit addVest "rhsusf_mbav_light";
+_unit addBackpack "bp_afougf_assault_mm14";
 
 //  "Add binoculars";
 _unit addWeapon "Rangefinder";
 
 //  "Add items to containers";
 _unit addItemToUniform "FirstAidKit";
+_unit addItemToVest "MineDetector";
 for "_i" from 1 to 2 do {_unit addItemToUniform "11Rnd_45ACP_Mag";};
-for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
-for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
-_unit addItemToBackpack "Medikit";
-_unit addHeadgear "H_HelmetLeaderO_oucamo";
-_unit addGoggles "g_airpurifyingrespirator_02_black_f";
+for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_rgd5";};
+for "_i" from 1 to 5 do {_unit addItemToVest "rhs_30Rnd_545x39_7N10_plum_AK";};
+_unit addHeadgear "H_B_afou_1M_model_I_slings_green";
 
 //  "Add items";
 _unit linkItem "ItemMap";
@@ -41,7 +39,6 @@ _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
-_unit linkItem "O_NVGoggles_urb_F";
 
 // "Set identity";
 //[_unit,"GreekHead_A3_02","male01eng"] call BIS_fnc_setIdentity;

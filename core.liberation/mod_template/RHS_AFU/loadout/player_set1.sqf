@@ -11,19 +11,19 @@ removeHeadgear _unit;
 removeGoggles _unit;
 
 //  "Add weapons";
-_unit addWeapon "rhs_weap_makarov_pm";
-_unit addHandgunItem "rhs_mag_9x18_8_57N181S";
+_unit addWeapon "hgun_Pistol_heavy_01_F";
+_unit addHandgunItem "11Rnd_45ACP_Mag";
 
 //  "Add containers";
-_unit forceAddUniform "rhs_uniform_vkpo_alt";
-_unit addVest "rhs_vest_pistol_holster";
+_unit forceAddUniform "U_B_afou_ubacs_mm14";
+_unit addVest "rhsusf_mbav_light";
 
 //  "Add items to containers";
 _unit addItemToUniform "FirstAidKit";
-for "_i" from 1 to 2 do {_unit addItemToUniform "SmokeShell";};
-for "_i" from 1 to 2 do {_unit addItemToUniform "rhs_mag_9x18_8_57N181S";};
-for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_9x18_8_57N181S";};
-_unit addHeadgear "rhs_vkpo_cap";
+_unit addItemToVest "MineDetector";
+for "_i" from 1 to 2 do {_unit addItemToUniform "afou_mag_gd01_white";};
+for "_i" from 1 to 2 do {_unit addItemToVest "11Rnd_45ACP_Mag";};
+_unit addHeadgear "H_B_afou_1M_model_I_slings_green";
 
 //  "Add items";
 _unit linkItem "ItemMap";
