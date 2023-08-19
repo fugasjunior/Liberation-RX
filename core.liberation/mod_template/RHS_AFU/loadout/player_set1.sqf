@@ -21,7 +21,6 @@ _unit addVest "rhsusf_mbav_light";
 //  "Add items to containers";
 _unit addItemToUniform "FirstAidKit";
 _unit addItemToVest "MineDetector";
-for "_i" from 1 to 2 do {_unit addItemToUniform "afou_mag_gd01_white";};
 for "_i" from 1 to 2 do {_unit addItemToVest "11Rnd_45ACP_Mag";};
 _unit addHeadgear "H_B_afou_1M_model_I_slings_green";
 
