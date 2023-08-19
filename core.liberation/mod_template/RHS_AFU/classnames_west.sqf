@@ -150,7 +150,7 @@ buildings_west = [
 	["Land_Cargo_Tower_V3_F",0,0,0,GRLIB_perm_tank],
 	["Land_Cargo_House_V3_F",0,0,0,GRLIB_perm_inf],
 	["Land_Cargo_Patrol_V3_F",0,0,0,GRLIB_perm_log],
-	["rhs_Flag_Russia_F",0,0,0,0]
+	["Flag_Ukraine_F",0,0,0,0]
 ];
 
 blufor_squad_inf_light = [
