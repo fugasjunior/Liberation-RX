@@ -27,7 +27,7 @@ opfor_mrap = "rhs_tigr_msv";
 opfor_mrap_hmg = "rhs_tigr_sts_msv";
 opfor_mrap_gmg = "rhs_tigr_sts_msv";
 opfor_transport_helo = "RHS_Mi8mt_Cargo_vdv";
-opfor_transport_truck = "rhs_kamaz5350_open_msv";
+opfor_transport_truck = "b_afougf_Ural_open";
 opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";
 opfor_ammo_truck = "rhs_gaz66_ammo_msv";
 opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";
@@ -104,7 +104,7 @@ opfor_battlegroup_vehicles = [
 	"rhs_t80a",
 	"BTR4E_AFU",
 	"rhs_bmd2",
-	"rhs_kamaz5350_msv",
+	"b_afougf_Ural_Base",
 	"RHS_Mi24V_UPK23_vdv"
 ];
 
@@ -115,7 +115,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"UA_btr80a",
 	"rhs_tigr_sts_msv",
 	"rhs_bmd1",
-	"rhs_kamaz5350_msv",
+	"b_afougf_Ural_Base",
 	"RHS_Mi8AMT_vdv",
 	"RHS_Mi8AMTSh_UPK23_vvsc"
 ];
@@ -123,7 +123,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 opfor_troup_transports_truck = [
 	"rhs_bmd1",
 	"rhs_bmd2",
-	"rhs_kamaz5350_msv"
+	"b_afougf_Ural_Base"
 ];
 
 opfor_troup_transports_heli = [
@@ -175,8 +175,8 @@ opfor_recyclable = [
 	["rhs_t80a",10,round (1150 / GRLIB_recycling_percentage),10],
 	["BTR4E_AFU",10,round (350 / GRLIB_recycling_percentage),10],
 	["RHS_Mi8mt_Cargo_vdv",10,round (450 / GRLIB_recycling_percentage),10],
-	["rhs_kamaz5350_msv",10,round (150 / GRLIB_recycling_percentage),10],
-	["rhs_kamaz5350_open_msv",10,round (150 / GRLIB_recycling_percentage),10],
+	["b_afougf_Ural_Base",10,round (150 / GRLIB_recycling_percentage),10],
+	["b_afougf_Ural_open",10,round (150 / GRLIB_recycling_percentage),10],
 	["RHS_Ural_Fuel_MSV_01",10,round (150 / GRLIB_recycling_percentage),20],
 	["RHS_Mi24P_CAS_vdv",10,round (550 / GRLIB_recycling_percentage),10],
 	["RHS_Mi24V_UPK23_vdv",10,round (570 / GRLIB_recycling_percentage),10],

@@ -8,11 +8,11 @@ GRLIB_west_modder = "fugasjunior";
 FOB_typename = "Land_Cargo_HQ_V3_F";
 huron_typename = "b_afougf_Mi8MTV3_Cargo";
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_black_F";
-FOB_truck_typename = "O_T_Truck_03_device_ghex_F"; // TODO
-Respawn_truck_typename = "rhs_gaz66_ap2_msv" ; // TODO
-ammo_truck_typename = "O_Truck_03_ammo_F"; // TODO
-fuel_truck_typename = "O_Truck_03_fuel_F"; // TODO
-repair_truck_typename = "O_Truck_03_Repair_F"; // TODO
+FOB_truck_typename = "b_afougf_gaz66_r142";
+Respawn_truck_typename = "b_afougf_gaz66_ap2" ;
+ammo_truck_typename = "b_afougf_gaz66_ammo";
+fuel_truck_typename = "b_afougf_kraz255b1_fuel";
+repair_truck_typename = "b_afougf_gaz66_repair";
 repair_sling_typename = "Land_Pod_Heli_Transport_04_repair_F";
 fuel_sling_typename = "Land_Pod_Heli_Transport_04_fuel_F";
 ammo_sling_typename = "Land_Pod_Heli_Transport_04_ammo_F";
@@ -79,14 +79,13 @@ light_vehicles = [
 	["b_afougf_UAZ_Base",1,10,1,0],
 	["b_afougf_offroad_01_dshkm",1,50,1,GRLIB_perm_inf],
 	["b_afougf_gaz66_truck",1,15,1,0],
-	["rhs_kamaz5350_open_msv",1,50,1,GRLIB_perm_inf], // TODO
 	["b_afougf_Ural_open",1,50,1,GRLIB_perm_log],
-	["rhs_kraz255b1_cargo_open_msv",1,50,1,GRLIB_perm_tank], // TODO
+	["b_afougf_kraz255b1_flatbed",1,50,1,GRLIB_perm_tank],
 	["rhsusf_m1240a1_usarmy_wd",2,25,2,0],
 	["b_afougf_btr70",5,100,2,GRLIB_perm_inf],
 	["UA_btr80",5,125,2,GRLIB_perm_log],
 	["UA_btr80a",5,145,2,GRLIB_perm_log],
-	["rhs_kamaz5350_msv",5,10,5,GRLIB_perm_inf], // TODO
+	["b_afougf_Ural_Base",5,10,5,GRLIB_perm_inf],
 	["b_afougf_Ural_Zu23",10,400,10,GRLIB_perm_tank]
 ];
 

@@ -7,11 +7,11 @@
 
 box_transport_config = box_transport_config + [
     // the 'opfor_transport_truck' MUST be declared here
-	[ "b_afougf_gaz66_truck", -6.5, [0,-0.2,0.6], [0,-1.8,0.6] ],
-	[ "rhs_kamaz5350_msv", -6.5, [0,0.8,0], [0,-0.8,0.0], [0,-2.5,0] ],
-	[ "rhs_kamaz5350_open_msv", -6.5, [0,0.8,0], [0,-0.8,0.0], [0,-2.5,0] ],
-	[ "b_afougf_Ural_open", -6.5, [0,0.5,1.5], [0,-0.9,1.5], [0,-2.4,1.5] ],
-	[ "rhs_kraz255b1_cargo_open_msv", -6.5, [0,0.5,1.5], [0,-0.9,1.5], [0,-2.4,1.5], [0,-3.8,1.5] ]
+	[ "b_afougf_gaz66_truck", -6.5, [0, 0.2, 0.1], [0, -1.2, 0.1] ],
+	[ "b_afougf_Ural_Base", -6.5, [0, 0, 0.5], [0, -1.8, 0.5] ],
+	[ "b_afougf_Ural_open", -6.5, [0, 0, 0.6], [0, -1.8, 0.6] ],
+	[ "b_afougf_kraz255b1_flatbed", -6.5, [0, 0.2, 0.4], [0, -1.2, 0.4], [0, -2.7, 0.4] ],
+	[ "b_afougf_Mi8MTV3_Cargo", -6.5, [0, 4.3, -1.5], [0, 2.8, -1.5], [0, 1.2, -1.5], [0, -0.3, -1.5] ]
 ];
 
 // Additional offset per object
