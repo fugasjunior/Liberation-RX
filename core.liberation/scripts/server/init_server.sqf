@@ -1,5 +1,7 @@
 diag_log "--- Server Init start ---";
 
+["Initialize"] call BIS_fnc_dynamicGroups;
+
 // EventHandler
 addMissionEventHandler ['HandleDisconnect', {
 	_this call cleanup_player;

@@ -2,6 +2,8 @@ diag_log "--- Client Init start ---";
 
 titleText ["Loading...","BLACK FADED", 100];
 
+["InitializePlayer", [player]] call BIS_fnc_dynamicGroups;
+
 R3F_LOG_joueur_deplace_objet = objNull;
 GRLIB_player_spawned = false;
 GRLIB_player_is_menuok = false;
