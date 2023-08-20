@@ -45,7 +45,6 @@ F_getUnitPositionId = compileFinal preprocessFileLineNumbers "scripts\shared\fun
 F_getUnitsCount = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_getUnitsCount.sqf";
 F_getValid = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_getValid.sqf";
 F_getVehicleAmmoDef = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_getVehicleAmmoDef.sqf";
-F_hof_msg = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_hof_msg.sqf";
 F_invertArray = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_invertArray.sqf";
 F_isBigtownActive = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_isBigtownActive.sqf";
 F_itemIsInClass = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_itemIsInClass.sqf";

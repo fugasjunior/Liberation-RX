@@ -20,7 +20,6 @@ while { true } do {
 	// FOB Sign Actions
 	if (!GRLIB_player_near_lhd && GRLIB_player_fobdistance < GRLIB_fob_range && cursorObject isKindof FOB_sign) then {
 		if (count (actionIDs cursorObject) == 0) then {
-			cursorObject addAction ["<t color='#FFFFFF'>" + "-= Hall of Fame =-" + "</t>",{([] call F_hof_msg) spawn BIS_fnc_dynamicText},"",970,true,true,"","GRLIB_player_is_menuok",5];
 			cursorObject addAction ["<t color='#FFFFFF'>" + localize "STR_READ_ME" + "</t>",{createDialog "liberation_notice"},"",971,true,true,"","GRLIB_player_is_menuok",5];
 			cursorObject addAction ["<t color='#FFFFFF'>" + localize "STR_TIPS" + "</t>",{createDialog "liberation_tips"},"",972,true,true,"","GRLIB_player_is_menuok",5];
 		};
