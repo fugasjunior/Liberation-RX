@@ -76,7 +76,7 @@ while { true } do {
 		_score = [player] call F_getScore;
 		_build_list = [];
 		{
-			if ( _score >= (_x select 4) ) then {_build_list pushback _x};
+			_build_list pushback _x;
 		} forEach (build_lists select buildtype);
 
 		_classname = (_build_list select buildindex) select 0;
