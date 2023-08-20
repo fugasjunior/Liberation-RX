@@ -77,35 +77,40 @@ light_vehicles = [
 	["O_Boat_Transport_01_F",1,25,1,GRLIB_perm_inf],
 	["O_Boat_Armed_01_hmg_F",5,30,5,GRLIB_perm_log],
 	["b_afougf_UAZ_Base",1,10,1,0],
-	["b_afougf_offroad_01_dshkm",1,50,1,GRLIB_perm_inf],
+	["b_afougf_UAZ_DShKM_Base",1,50,1,GRLIB_perm_inf],
 	["b_afougf_gaz66_truck",1,15,1,0],
 	["b_afougf_Ural_open",1,50,1,GRLIB_perm_log],
 	["b_afougf_kraz255b1_flatbed",1,50,1,GRLIB_perm_tank],
 	["rhsusf_m1240a1_usarmy_wd",2,25,2,0],
+	["FA_UAF_Novator",2,30,2,0],
+	["FA_UAF_Novator_ATGM",2,50,2,0],
+	["FA_UAF_Shrek",1,65,2,0],
 	["b_afougf_btr70",5,100,2,GRLIB_perm_inf],
-	["UA_btr80",5,125,2,GRLIB_perm_log],
-	["UA_btr80a",5,145,2,GRLIB_perm_log],
+	["b_afougf_btr80_common",5,125,2,GRLIB_perm_log],
+	["FA_UAF_BTR3",5,145,2,GRLIB_perm_log],
 	["b_afougf_Ural_Base",5,10,5,GRLIB_perm_inf],
 	["b_afougf_Ural_Zu23",10,400,10,GRLIB_perm_tank]
 ];
 
 heavy_vehicles = [
 	["b_afougf_brm1k_Base",10,150,10,GRLIB_perm_tank],
-	["UA_bmp1",10,150,10,GRLIB_perm_tank],
+	["b_afougf_bmp1",10,150,10,GRLIB_perm_tank],
 	["b_afougf_bmp1p",10,160,10,GRLIB_perm_air],
 	["b_afougf_prp3_Base",10,170,10,GRLIB_perm_tank],
-	["BTR4E_AFU",180,80,10,GRLIB_perm_tank],
-	["UA_bmp2",15,200,20,GRLIB_perm_air],
-	["mkk_t64_bv_ua",15,500,20,GRLIB_perm_tank],
-	["b_afougf_t72bb",15,500,20,GRLIB_perm_tank],
-	["UA_T72BA",20,600,25,GRLIB_perm_air],
+	["FA_UAF_BTR4",18,100,10,GRLIB_perm_tank],
+	["b_afougf_bmp2",15,200,20,GRLIB_perm_air],
+	["FA_UAF_BMP1U",15,285,20,GRLIB_perm_air],
+	["FA_UAF_T64BM2",15,500,20,GRLIB_perm_tank],
+	["b_afougf_t72ba",15,500,20,GRLIB_perm_tank],
+	["b_afougf_t72bb",20,600,25,GRLIB_perm_air],
 	["b_afougf_t80bv",20,500,25,GRLIB_perm_tank],
 	["b_afougf_t80u",20,500,25,GRLIB_perm_air],
+	["FA_UAF_T84M",20,1000,25,GRLIB_perm_air],
 	["ssr_Leopard2a4",20,1500,25,GRLIB_perm_max],
 	["b_afougf_zsu234_aa",20,750,25,GRLIB_perm_air],
 	["b_afougf_2s1tank",50,2000,100,GRLIB_perm_tank],
 	["b_afougf_2s3",50,2300,100,GRLIB_perm_air],
-	["UA_HIMARS",10,3500,0,GRLIB_perm_max]
+	["b_afougf_m142_base",10,3500,0,GRLIB_perm_max]
 ];
 
 air_vehicles = [
@@ -130,6 +135,7 @@ static_vehicles = [
 	["b_afougf_SPG9M",0,15,0,GRLIB_perm_log],
 	["RHS_Stinger_AA_pod_WD",0,50,0,GRLIB_perm_air],
 	["RHS_TOW_TriPod_WD",0,50,0,GRLIB_perm_tank],
+	["b_afougf_2b14_82mm",0,75,0,GRLIB_perm_log],
 	["b_afougf_ZU23",0,500,0,GRLIB_perm_air],
 	["b_afougf_m119",10,600,0,GRLIB_perm_air],
 	["b_afougf_BM21",10,2600,0,GRLIB_perm_max]
@@ -258,7 +264,7 @@ GRLIB_AirDrop_1 = [			// Unarmed Offroader 50
 ];
 
 GRLIB_AirDrop_2 = [			// Armed Offroader 100
-	"rhsusf_m1240a1_m240_usarmy_wd"
+	"b_afougf_UAZ_DShKM_Base"
 ];
 
 GRLIB_AirDrop_3 = [			// MRAP 200
@@ -269,8 +275,8 @@ GRLIB_AirDrop_4 = [			// Large Truck 300
 	"b_afougf_gaz66_truck"
 ];
 
-GRLIB_AirDrop_5 = [			// APC 750
-	"b_afougf_btr70"
+GRLIB_AirDrop_5 = [			// IFV 750
+	"b_afougf_bmd2"
 ];
 
 GRLIB_AirDrop_6 = [			// Boat 250

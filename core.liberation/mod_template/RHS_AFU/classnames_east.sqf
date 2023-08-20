@@ -59,7 +59,7 @@ militia_vehicles = [
 	"O_G_Offroad_01_AT_F",
 	"rhs_btr60_msv",
 	"b_afougf_btr70",
-	"UA_btr80"
+	"b_afougf_btr80_common"
 ];
 
 opfor_boats = [
@@ -69,14 +69,14 @@ opfor_boats = [
 opfor_vehicles = [
 	"rhs_sprut_vdv",
 	"rhs_gaz66_zu23_msv",
-	"UA_btr80a",
+	"FA_UAF_BTR3",
 	"rhs_tigr_sts_msv",
 	"rhs_Ob_681_2",
 	"rhs_t72bd_tv",
 	"b_afougf_zsu234_aa",
 	"rhs_t90a_tv",
 	"rhs_t80a",
-	"BTR4E_AFU",
+	"FA_UAF_BTR4",
 	"rhs_bmd4_vdv",
 	"rhs_bmd4_vdv"
 ];
@@ -84,9 +84,9 @@ opfor_vehicles = [
 opfor_vehicles_low_intensity = [
 	"rhs_sprut_vdv",
 	"rhs_gaz66_zu23_msv",
-	"UA_btr80a",
+	"b_afougf_btr80_common",
 	"rhs_tigr_sts_msv",
-	"UA_btr80a",
+	"UFA_UAF_BTR3",
 	"rhs_tigr_sts_msv",
 	"rhs_bmd4_vdv",
 	"rhs_bmd4_vdv"
@@ -94,15 +94,15 @@ opfor_vehicles_low_intensity = [
 
 opfor_battlegroup_vehicles = [
 	"b_afougf_btr70",
-	"UA_btr80",
+	"b_afougf_btr80_common",
 	"b_afougf_zsu234_aa",
 	"b_afougf_Ural_Zu23",
-	"UA_btr80a",
+	"UFA_UAF_BTR3",
 	"rhs_tigr_sts_msv",
 	"rhs_bmd4_vdv",
 	"rhs_t90a_tv",
 	"rhs_t80a",
-	"BTR4E_AFU",
+	"FA_UAF_BTR4",
 	"rhs_bmd2",
 	"b_afougf_Ural_Base",
 	"RHS_Mi24V_UPK23_vdv"
@@ -112,7 +112,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"rhs_btr60_msv",
 	"b_afougf_btr70",
 	"b_afougf_Ural_Zu23",
-	"UA_btr80a",
+	"UFA_UAF_BTR3",
 	"rhs_tigr_sts_msv",
 	"rhs_bmd1",
 	"b_afougf_Ural_Base",
@@ -160,20 +160,20 @@ opfor_recyclable = [
 	["rhs_sprut_vdv",5,round (520 / GRLIB_recycling_percentage),5],
 	["rhs_gaz66_zu23_msv",5,round (420 / GRLIB_recycling_percentage),5],
 	["rhs_gaz66_ammo_msv",5,round (320 / GRLIB_recycling_percentage),5],
-	["UA_btr80a",5,round (350 / GRLIB_recycling_percentage),5],
+	["FA_UAF_BTR3",5,round (350 / GRLIB_recycling_percentage),5],
 	["rhs_Ob_681_2",5,round (550 / GRLIB_recycling_percentage),5],
 	["rhs_t72bd_tv",5,round (850 / GRLIB_recycling_percentage),5],
 	["b_afougf_zsu234_aa",5,round (650 / GRLIB_recycling_percentage),5],
 	["b_afougf_Ural_Zu23",10,round (450 / GRLIB_recycling_percentage),10],
 	["rhs_btr60_msv",5,round (250 / GRLIB_recycling_percentage),8],
 	["b_afougf_btr70",5,round (350 / GRLIB_recycling_percentage),8],
-	["UA_btr80",5,round (450 / GRLIB_recycling_percentage),10],
+	["b_afougf_btr80_common",5,round (450 / GRLIB_recycling_percentage),10],
 	["rhs_bmd4_vdv",10,round (350 / GRLIB_recycling_percentage),10],
 	["rhs_bmd2",10,round (350 / GRLIB_recycling_percentage),10],
 	["rhs_bmd1",10,round (150 / GRLIB_recycling_percentage),10],
 	["rhs_t90a_tv",10,round (2450 / GRLIB_recycling_percentage),10],
 	["rhs_t80a",10,round (1150 / GRLIB_recycling_percentage),10],
-	["BTR4E_AFU",10,round (350 / GRLIB_recycling_percentage),10],
+	["FA_UAF_BTR4",10,round (350 / GRLIB_recycling_percentage),10],
 	["RHS_Mi8mt_Cargo_vdv",10,round (450 / GRLIB_recycling_percentage),10],
 	["b_afougf_Ural_Base",10,round (150 / GRLIB_recycling_percentage),10],
 	["b_afougf_Ural_open",10,round (150 / GRLIB_recycling_percentage),10],
