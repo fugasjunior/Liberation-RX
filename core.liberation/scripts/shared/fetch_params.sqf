@@ -138,6 +138,7 @@ GRLIB_squad_size = ["SquadSize",2] call _lrx_getParamValue;
 GRLIB_max_squad_size = ["MaxSquadSize",7] call _lrx_getParamValue;
 GRLIB_max_spawn_point = ["MaxSpawnPoint",3] call _lrx_getParamValue;
 GRLIB_permissions_param = ["Permissions",1] call _lrx_getParamValue;
+GRLIB_permission_vehicles = ["EnableLock",1] call _lrx_getParamValue;
 GRLIB_civilian_activity = ["Civilians",1] call _lrx_getParamValue;
 GRLIB_patrols_activity = ["Patrols",1] call _lrx_getParamValue;
 GRLIB_wildlife_manager = ["Wildlife",1] call _lrx_getParamValue;

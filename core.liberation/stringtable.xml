@@ -5661,6 +5661,16 @@
 			<Portuguese>Você NÃO tem permissão para usar veículos de apoio.</Portuguese>
 			<Czech>NESMÍTE používat podpůrná vozidla.</Czech>
 		</Key>
+		<Key ID="STR_PERMISSION_NO_OWN">
+			<Original>Wrong Vehicle Owner.\nAccess is Denied !!</Original>
+			<Russian>Неверный владелец транспортного средства.\nВ доступе отказано !!</Russian>
+			<French>Mauvais Propriétaire.\nAccès Refusé !!</French>
+			<Chinesesimp>错误的车主。\n拒绝访问 !!</Chinesesimp>
+			<Chinese>錯誤的車主。 \n拒絕訪問 !!</Chinese>
+			<Japanese>あなたはこの乗り物の所持者ではありません。\nアクセスは拒否されました！</Japanese>
+			<Portuguese>Proprietário do veículo errado.\nAcesso negado!!</Portuguese>
+			<Czech>Nejsi vlastník vozidla.\nPřístup odepřen!!</Czech>
+		</Key>
 		<Key ID="STR_PERMISSION_NO_PRI">
 			<Original>Prisoners are NOT allowed to use vehicles !!</Original>
 			<Russian>Заключенным НЕ разрешается пользоваться транспортными средствами !!</Russian>
@@ -6241,6 +6251,18 @@
 			<Chinese>&lt;t align='center'&gt;解散小隊&lt;br/&gt;你確定嗎？ &lt;/t&gt;</Chinese>
 			<Portuguese>&lt;t align='center'&gt;Dispensar o Esquadrão&lt;br/&gt;Tem certeza ?&lt;/t&gt;</Portuguese>
 			<Czech>&lt;t align='center'&gt;Propustit Tým&lt;br/&gt;Jsi si jistý ?&lt;/t&gt;</Czech>
+		</Key>
+
+		<!-- do_unlock.sqf -->
+		<Key ID="STR_DO_UNLOCK">
+			<Original>%1 is Unlocked !</Original>
+			<Russian>%1 открыт !</Russian>
+			<French>%1 est Déverrouillé !</French>
+			<Japanese>%1 の鍵をあけました！</Japanese>
+			<Chinesesimp>%1 已解锁！</Chinesesimp>
+			<Chinese>%1 已解鎖！</Chinese>
+			<Portuguese>%1 está desbloqueado!</Portuguese>
+			<Czech>%1 odemčeno!</Czech>
 		</Key>
 
 		<!-- do_wreck.sqf -->
