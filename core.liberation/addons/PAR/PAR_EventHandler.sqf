@@ -26,16 +26,8 @@ _unit addEventHandler ["InventoryClosed", {
 
 _unit addEventHandler ["InventoryOpened", {
 	params ["_unit", "_container"];
-	_ret = false;
 	playsound "ZoomIn";
-	if (GRLIB_permission_vehicles) then {
-		if ((typeOf _container in support_box_noArsenal) || (!alive _container)) exitWith { _ret };
-		if (!([_unit, _container] call is_owner) || locked _container > 1) then {
-			closeDialog 106;
-			_ret = true;
-		};
-	};
-	_ret;
+	false;
 }];
 
 _unit addEventHandler ["WeaponAssembled", {
