@@ -76,18 +76,20 @@ resistance_squad_static = "RHS_Stinger_AA_pod_WD";
 light_vehicles = [
 	["O_Boat_Transport_01_F",1,25,1,GRLIB_perm_inf],
 	["O_Boat_Armed_01_hmg_F",5,30,5,GRLIB_perm_log],
-	["b_afougf_UAZ_Base",1,10,1,0],
-	["b_afougf_UAZ_DShKM_Base",1,50,1,GRLIB_perm_inf],
+	["b_afougf_m1151_base",1,10,1,0],
+	["b_afougf_m1151_m2_v1",1,50,1,GRLIB_perm_inf],
 	["b_afougf_gaz66_truck",1,15,1,0],
 	["b_afougf_Ural_open",1,50,1,GRLIB_perm_log],
 	["b_afougf_kraz255b1_flatbed",1,50,1,GRLIB_perm_tank],
 	["rhsusf_m1240a1_usarmy_wd",2,25,2,0],
+	["rhsusf_m1240a1_M240_usarmy_wd",2,40,2,0],
 	["FA_UAF_Novator",2,30,2,0],
 	["FA_UAF_Novator_ATGM",2,50,2,0],
 	["FA_UAF_Shrek",1,65,2,0],
 	["b_afougf_btr70",5,100,2,GRLIB_perm_inf],
 	["b_afougf_btr80_common",5,125,2,GRLIB_perm_log],
-	["FA_UAF_BTR3",5,145,2,GRLIB_perm_log],
+	["UA_btr80a",5,145,2,GRLIB_perm_log],
+	["FA_UAF_BTR3",5,200,2,GRLIB_perm_log],
 	["b_afougf_Ural_Base",5,10,5,GRLIB_perm_inf],
 	["b_afougf_Ural_Zu23",10,400,10,GRLIB_perm_tank]
 ];
@@ -97,10 +99,11 @@ heavy_vehicles = [
 	["b_afougf_bmp1",10,150,10,GRLIB_perm_tank],
 	["b_afougf_bmp1p",10,160,10,GRLIB_perm_air],
 	["b_afougf_prp3_Base",10,170,10,GRLIB_perm_tank],
-	["FA_UAF_BTR4",18,100,10,GRLIB_perm_tank],
+	["FA_UAF_BTR4",18,150,10,GRLIB_perm_tank],
+	["RHS_M2A2_wd",10,185,10,GRLIB_perm_tank],
 	["b_afougf_bmp2",15,200,20,GRLIB_perm_air],
 	["FA_UAF_BMP1U",15,285,20,GRLIB_perm_air],
-	["FA_UAF_T64BM2",15,500,20,GRLIB_perm_tank],
+	["mkk_t64_bv_ua",15,500,20,GRLIB_perm_tank],
 	["b_afougf_t72ba",15,500,20,GRLIB_perm_tank],
 	["b_afougf_t72bb",20,600,25,GRLIB_perm_air],
 	["b_afougf_t80bv",20,500,25,GRLIB_perm_tank],
@@ -260,23 +263,23 @@ GRLIB_vehicle_blacklist_west = [
 ];
 
 GRLIB_AirDrop_1 = [			// Unarmed Offroader 50
-	"b_afougf_UAZ_Base"
+	"b_afougf_m1151_base"
 ];
 
 GRLIB_AirDrop_2 = [			// Armed Offroader 100
-	"b_afougf_UAZ_DShKM_Base"
+	"b_afougf_m1151_m2_v1"
 ];
 
 GRLIB_AirDrop_3 = [			// MRAP 200
-	"b_afougf_BRDM2_UM"
+	"rhsusf_m1240a1_M240_usarmy_wd"
 ];
 
 GRLIB_AirDrop_4 = [			// Large Truck 300
-	"b_afougf_gaz66_truck"
+	"b_afougf_Ural_open"
 ];
 
 GRLIB_AirDrop_5 = [			// IFV 750
-	"b_afougf_bmd2"
+	"RHS_M2A2_wd"
 ];
 
 GRLIB_AirDrop_6 = [			// Boat 250

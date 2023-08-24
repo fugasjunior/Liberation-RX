@@ -55,7 +55,7 @@ militia_loadout_overide = [
 ];
 
 militia_vehicles = [
-	"b_afougf_offroad_01_dshkm",
+	"b_afougf_m1151_m2_v1",
 	"O_G_Offroad_01_AT_F",
 	"rhs_btr60_msv",
 	"b_afougf_btr70",
@@ -69,6 +69,7 @@ opfor_boats = [
 opfor_vehicles = [
 	"rhs_sprut_vdv",
 	"rhs_gaz66_zu23_msv",
+	"UA_btr80a",
 	"FA_UAF_BTR3",
 	"rhs_tigr_sts_msv",
 	"rhs_Ob_681_2",
