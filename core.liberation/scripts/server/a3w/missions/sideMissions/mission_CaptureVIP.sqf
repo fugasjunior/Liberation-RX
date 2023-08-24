@@ -127,9 +127,10 @@ _waitUntilCondition = {
 			};
 		} foreach [_vehicle1, _vehicle2, _vehicle3];
 
+		[_aiGroup] call F_deleteWaypoints;
 		_aiGroup setBehaviour "COMBAT";
 		_aiGroup setCombatMode "RED";
-		[_aiGroup, getPosATL _vip, 30] spawn add_defense_waypoints;
+		_aiGroup setSpeedMode "NORMAL";
 	};
 
 	!(alive _vip) || currentWaypoint _aiGroup >= _numWaypoints;
