@@ -5,7 +5,7 @@ GRLIB_west_modder = "fugasjunior";
 // Default classname: scripts\shared\default_classnames.sqf
 // Advanced definition: scripts\shared\classnames.sqf
 
-FOB_typename = "Land_Cargo_HQ_V3_F";
+FOB_typename = "Land_Cargo_HQ_V1_F";
 huron_typename = "b_afougf_Mi8MTV3_Cargo";
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_black_F";
 FOB_truck_typename = "b_afougf_gaz66_r142";
