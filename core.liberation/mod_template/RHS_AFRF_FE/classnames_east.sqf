@@ -37,17 +37,17 @@ opfor_patrol = "Land_Cargo_Patrol_V3_F";
 opfor_hq = "Land_Cargo_HQ_V3_F";
 
 militia_squad = [
-	"rhs_vdv_mflora_junior_sergeant",
-	"rhs_vdv_mflora_marksman",
-	"rhs_vdv_mflora_rifleman_lite",
-	"rhs_vdv_mflora_rifleman_lite",
-	"rhs_vdv_mflora_medic",
-	"rhs_vdv_mflora_grenadier_rpg",
-	"rhs_vdv_mflora_rifleman",
-	"rhs_vdv_mflora_rifleman",
-	"rhs_vdv_mflora_at",
-	"rhs_vdv_mflora_grenadier",
-	"rhs_vdv_mflora_arifleman_rpk"
+	"rhs_vdv_flora_junior_sergeant",
+	"rhs_vdv_flora_marksman",
+	"rhs_vdv_flora_rifleman_lite",
+	"rhs_vdv_flora_rifleman_lite",
+	"rhs_vdv_flora_medic",
+	"rhs_vdv_flora_grenadier_rpg",
+	"rhs_vdv_flora_rifleman",
+	"rhs_vdv_flora_rifleman",
+	"rhs_vdv_flora_at",
+	"rhs_vdv_flora_grenadier",
+	"rhs_vdv_flora_arifleman_rpk"
 ];
 
 militia_loadout_overide = [
@@ -197,4 +197,14 @@ opfor_recyclable = [
 	["RHS_TU95MS_vvs_irkutsk",15,round (1500 / GRLIB_recycling_percentage),50],
 	["rhs_2s3_tv",15,round (2300 / GRLIB_recycling_percentage),35],
 	["RHS_BM21_MSV_01",15,round (2600 / GRLIB_recycling_percentage),15]
+];
+
+guard_squad = [
+	"rhs_msv_emr_junior_sergeant",
+	"rhs_msv_emr_rifleman",
+	"rhs_msv_emr_rifleman",
+	"rhs_msv_emr_rifleman"
+];
+
+guard_loadout_overide = [
 ];
