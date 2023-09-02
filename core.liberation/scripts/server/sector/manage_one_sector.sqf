@@ -10,7 +10,6 @@ private _building_ai_max = 0;
 private _infsquad = "militia";
 private _building_range = 200;
 private _local_capture_size = GRLIB_capture_size;
-private _iedcount = 0;
 private _defensecount = 0;
 private _vehtospawn = [];
 private _managed_units = [];
@@ -60,8 +59,6 @@ if ( (!(_sector in blufor_sectors)) &&  ( ( [getmarkerpos _sector , GRLIB_sector
 		_building_ai_max = round (15 * _popfactor) ;
 		_building_range = 300;
 		_local_capture_size = _local_capture_size * 1.4;
-		_iedcount = (3 + (floor (random 4))) * GRLIB_difficulty_modifier;
-		if ( _iedcount > 10 ) then { _iedcount = 10 };
 	};
 
 	if ( _sector in sectors_capture ) then {
@@ -73,8 +70,6 @@ if ( (!(_sector in blufor_sectors)) &&  ( ( [getmarkerpos _sector , GRLIB_sector
 		_spawncivs = true;
 		_building_ai_max = round ((floor (10 + (round (combat_readiness / 10 )))) * _popfactor);
 		_building_range = 200;
-		_iedcount = (floor (random 5)) * GRLIB_difficulty_modifier;
-		if ( _iedcount > 7 ) then { _iedcount = 7 };
 	};
 
 	if ( _sector in sectors_military ) then {
@@ -121,8 +116,6 @@ if ( (!(_sector in blufor_sectors)) &&  ( ( [getmarkerpos _sector , GRLIB_sector
 		_spawncivs = true;
 		_building_ai_max = round ((floor (10 + (round (combat_readiness / 10 )))) * _popfactor);
 		_building_range = 100;
-		_iedcount = (floor (random 4)) * GRLIB_difficulty_modifier;
-		if ( _iedcount > 5 ) then { _iedcount = 5 };
 	};
 
 	if ( _sector in sectors_tower ) then {
@@ -200,8 +193,6 @@ if ( (!(_sector in blufor_sectors)) &&  ( ( [getmarkerpos _sector , GRLIB_sector
 	};
 
 	[ _sector, _defensecount ] spawn static_manager;
-	[ markerPos _sector, _building_range, round (_iedcount) ] spawn ied_manager;
-	[ markerPos _sector, _building_range, round (_iedcount) ] spawn ied_trap_manager;
 	[ _sector ] spawn reinforcements_manager;
 	sleep 10;
 
